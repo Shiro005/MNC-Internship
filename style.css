@@ -1,0 +1,936 @@
+/* Google Font Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#heading {
+    color: rgb(37, 37, 37);
+    font-size: 1.6rem;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+/* CLASSES FOR BUTTON */
+.light-btn {
+    background-color: aliceblue;
+    color: rgb(15, 15, 15);
+    padding: 10px 20px;
+    border: 1px solid rgb(27, 27, 27);
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 20px 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.8;
+}
+
+.light-btn:hover {
+    background-color: rgb(199, 199, 199);
+    box-shadow: 1px 1px 8px rgb(75, 75, 75);
+}
+
+.dark-btn {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 20px 10px;
+    font-size: 0.8rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.dark-btn:hover {
+    background-color: black;
+    box-shadow: 1px 1px 8px rgb(75, 75, 75);
+}
+
+
+/* CSS STARTED */
+
+body {
+    background-color: rgb(243, 243, 243);
+    color: black;
+    padding: 10px;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR CSS */
+
+#navbar {
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    flex-wrap: nowrap;
+}
+
+nav #logo {
+    border: none;
+    padding: 0px;
+}
+
+nav #logo img {
+    height: 31px;
+    width: 120px;
+}
+
+nav ul {
+    display: flex;
+    border: none;
+    margin-right: 3px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0px 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: rgb(83, 219, 219);
+}
+
+/* CONTAINER 1 CSS */
+#container1 {
+    margin: 10px;
+    padding: 40px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sub-container1 {
+    height: max-content;
+    width: 500px;
+    margin: 10px 0px;
+}
+
+#sub-container1 h1 {
+    color: rgb(37, 37, 37);
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#sub-container1 p {
+    color: rgb(37, 37, 37);
+    font-size: 0.9rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+#sub-container2 {
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+#sub-container2 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* CONTAINER 2 CSS */
+#container2 {
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container2 h3 {
+    color: rgb(39, 39, 39);
+    font-size: 1.6rem;
+    width: 500px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+/* CONTAINER 3 CSS */
+#container3 {
+    margin: 10px;
+    margin: 40px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* CLASSES FOR CONTAINER3 BOXES */
+.box {
+    height: max-content;
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+.box h4 {
+    color: rgb(41, 41, 41);
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.box p {
+    color: rgb(41, 41, 41);
+    font-size: 0.7rem;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.box p a {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.box p img {
+    height: 20px;
+    width: 20px;
+    margin: 0px 10px;
+}
+
+.box img {
+    height: 50px;
+    width: 50px;
+}
+
+/* CONTAINER 4 CSS */
+#container4 {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sub-container3 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+#sub-container3 button {
+    width: 40%;
+}
+
+#sub-container3 h1 {
+    color: rgb(31, 31, 31);
+    font-size: 1.7rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+#sub-container3 img {
+    height: 280px;
+    width: 300px;
+}
+
+#sub-container4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(34, 34, 34);
+    margin: 10px 0px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.card .sub-card1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card .sub-card1 p {
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(34, 34, 34);
+    width: 400px;
+}
+
+.card .sub-card1 p a {
+    color: rgb(34, 34, 34);
+    font-size: 0.8rem;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+}
+
+.card .sub-card1 p a img {
+    height: 20px;
+    width: 20px;
+    margin: 0px 10px;
+}
+
+.card .sub-card2 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+/* CONTAINER 5 CSS */
+#container5 {
+    margin: 40px 20px;
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+#sub-container5 {
+    padding: 20px;
+    width: 50%;
+    cursor: pointer;
+}
+
+#sub-container5 h1 {
+    color: rgb(34, 34, 34);
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+}
+
+#sub-container5 p {
+    color: rgb(34, 34, 34);
+    font-size: 0.9rem;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 50px;
+    border-top: 1px solid rgb(24, 24, 24);
+}
+
+#sub-container6 {
+    width: fit-content;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+#sub-container6 img {
+    height: 300px;
+    width: 300px;
+}
+
+
+/* CONTAINER 6 CSS */
+#container6 {
+    margin: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#container6 img {
+    height: 212px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#container6 h2 {
+    color: rgb(34, 34, 34);
+    font-size: 1.5rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+#container6 p {
+    color: white;
+    background-color: rgb(22, 22, 22);
+    font-size: 0.8rem;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 40px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+/* CONTAINER 7 CSS */
+#container7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 40px 30px;
+    padding: 10px;
+}
+
+#sub-container7 {
+    width: 60%;
+}
+
+#sub-container7 h2 {
+    color: rgb(39, 39, 39);
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 10px 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#sub-container7 p {
+    color: grey;
+    font-size: 0.8rem;
+    margin: 10px 0px;
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+    line-height: 20px;
+}
+
+#sub-container8 {
+    border: none;
+}
+
+#sub-container8 img {
+    height: 300px;
+    width: 255px;
+}
+
+/* CONTAINER 8 CSS */
+#container8 {
+    margin: 40px 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+#container8 h1 {
+    color: rgb(44, 187, 187);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* CONTAINER 9 CSS */
+#container9 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#sub-container9 {
+    width: 40%;
+}
+
+#sub-container9 h2 {
+    color: rgb(41, 41, 41);
+    font-size: 1.6rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0px;
+}
+
+#sub-container9 p {
+    color: rgb(49, 49, 49);
+    font-size: 0.8rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+#sub-container9 ul {
+    border: none;
+    margin: 10px 0px;
+}
+
+#sub-container9 ul li {
+    color: rgb(53, 53, 53);
+    font-size: 0.8rem;
+    margin: 10px 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#sub-container10 {
+    width: 40%;
+}
+
+#sub-container10 img {
+    height: 255px;
+    width: 300px;
+}
+
+#sub-container10 p {
+    color: rgb(49, 49, 49);
+    font-size: 0.8rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0px;
+}
+
+#sub-container10 p img {
+    height: 50px;
+    margin: 10px 0px;
+    width: 50px;
+}
+
+/* CONTAINER 10 CSS */
+#container10 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 30px;
+    padding: 10px;
+    background-color: rgb(233, 232, 232);
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+#sub-container10 {
+    width: 400px;
+    margin: 10px 0px;
+    padding: 0px 20px;
+}
+
+#sub-container10 h2 {
+    color: rgb(41, 41, 41);
+    font-size: 1.6rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0px;
+}
+
+#sub-container10 p {
+    color: rgb(49, 49, 49);
+    font-size: 0.8rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0px;
+}
+
+#sub-container10 ul {
+    border: none;
+    margin: 10px 0px;
+}
+
+#sub-container10 ul li {
+    color: rgb(53, 53, 53);
+    font-size: 0.8rem;
+    margin: 10px 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#sub-container11 {
+    width: fit-content;
+    margin: 10px 0px;
+}
+
+#sub-container11 img {
+    height: 255px;
+    width: 300px;
+}
+
+/* CONTAINER 11 CSS */
+#container11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container11 h1 {
+    color: rgb(41, 41, 41);
+    font-size: 1.6rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 20px 0px;
+}
+
+#sub-container12 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
+/* CONTAINER 12 CSS */
+#container12 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#sub-container13 {
+    width: 450px;
+}
+
+#sub-container13 .tab {
+    border-left: 2px solid rgb(71, 207, 207);
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+#sub-container13 .tab h3 {
+    color: rgb(41, 41, 41);
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+#sub-container13 .tab p {
+    color: rgb(49, 49, 49);
+    font-size: 0.8rem;
+    font-family: 'Rubik', sans-serif;
+    border-bottom: 1px solid rgb(54, 54, 54);
+    padding-bottom: 10px;
+    margin: 10px 0px;
+}
+
+#sub-container14 {
+    width: fit-content;
+    cursor: pointer;
+}
+
+#sub-container14 img {
+    height: 256px;
+    width: 300px;
+}
+
+/* CONTAINER 13 CSS */
+#container13 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTAINER 14 CSS */
+#container14 {
+    display: flex;
+    margin: 40px 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container14 h3 {
+    color: rgb(41, 41, 41);
+    font-size: 1.4rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+#container14 p {
+    color: rgb(49, 49, 49);
+    font-size: 0.8rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0px;
+    width: 70%;
+    text-align: center;
+}
+
+#container14 img {
+    height: 50px;
+    margin: 10px 0px;
+    width: 50px;
+}
+
+/* CONTAINER 15 CSS */
+#container15 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 30px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+#sub-container15 {
+    width: 400px;
+    margin-top: 20px;
+}
+
+#sub-container15 p {
+    color: rgb(49, 49, 49);
+    font-size: 0.8rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0px;
+    width: 70%;
+    text-align: center;
+}
+
+#sub-container15 h3 {
+    color: rgb(41, 41, 41);
+    font-size: 1.4rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+#sub-container16 {
+    width: 50%;
+}
+
+form {}
+
+label {
+    color: rgb(41, 41, 41);
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input:focus,
+input:valid {
+    outline: 0;
+    background-color: rgb(214, 215, 216);
+}
+
+textarea {
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: rgb(41, 41, 41);
+    font-family: 'Rubik', sans-serif;
+}
+
+textarea:focus,
+textarea:valid {
+    outline: 0;
+    background-color: rgb(214, 215, 216);
+}
+
+/* CONTAINER 16 CSS */
+#container16 {
+    display: flex;
+    margin: 40px 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#container16 img {
+    height: 50px;
+    width: 50px;
+}
+
+#container16 h1 {
+    color: rgb(41, 41, 41);
+    font-size: 1.4rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+/* FOOTER CSS */
+footer {
+    background-color: rgb(46, 46, 46);
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+    align-items: baseline;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+footer img {
+    height: 30px;
+    width: 100px;
+}
+
+.f-container {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.f-container h5 {
+    color: rgb(231, 230, 230);
+    font-size: 0.7rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 5px 0px;
+}
+
+.f-container P {
+    color: rgb(231, 230, 230);
+    font-size: 0.7rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 5px 0px;
+}
+
+#f-container1 {
+    width: 25%;
+    margin-top: 10px;
+}
+
+#f-container2 {
+    width: 25%;
+}
+
+#f-container3 {
+    width: 10%;
+}
+
+#f-container3 li{
+    list-style-type: none;
+}
+
+#f-container3 li a{
+    color: white;
+    text-decoration: none;
+    color: rgb(231, 230, 230);
+    font-size: 0.7rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 5px 0px;
+}
+
+#f-container4 {
+    width: 25%;
+}
+
+#f-container4 input {
+    width: 70%;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-size: 0.7rem;
+    padding: 10px;
+}
+
+#f-container4 button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+/* LAST-SPACE */
+#last-space {
+    height: 200PX;
+}
+
+/* CASE STUDIES CSS  */
+.case-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.case-container img {
+    height: 300px;
+    width: 300px;
+}
+
+.case-container h1 {
+    color: rgb(41, 41, 41);
+    font-size: 1.4rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 20px 0px;
+    width: 80%;
+    cursor: pointer;
+}
+
+.case-container p {
+    color: rgb(49, 49, 49);
+    font-size: 0.8rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0px;
+    width: 80%;
+}
+
+/* CASE STUDIES CONTAINER2 CSS */
+.case-container1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-case-container1{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    line-height: 30px;
+    padding: 10px;
+    color: rgb(27, 27, 27);
+    font-size: 0.9rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.sub-case-container1 h5{
+    font-size: 1rem;
+    margin: 3px 0px;
+}
+
+.sub-case-container2{
+    margin-top: 40px;
+}
+
+.sub-case-container2 img{
+    height: 200px;
+    width: 200px;
+}
+
